@@ -3,6 +3,10 @@
 - input: 재생목록 id
 - output: 재생목록 내 비디오들에 대한 ["idx", "title", "url", "duration"] 정보를 담은 csv 파일
 
+### 왜 만들었나?
+이 재생 목록의 전체 강의를 다 들으려면 몇 시간이 걸릴까?
+일일이 복붙/입력해서 계산하기 귀찮으니 자동화해보자.
+
 ### TO-DO
 - [x] directory 나누기
 - [x] Type 적용 수정하기
@@ -14,7 +18,7 @@
   - [ ] api 추가해야 - playlist api 써야함
 
 결과 csv는 google spreadsheet에서 불러오기
--> 얘도 스크립팅?
+-> 얘도 스크립트로?
 
 
 ### 사용한 Youtube Data API
