@@ -1,7 +1,7 @@
 ## 유튜브의 강의를 재생목록 url로 파싱하는 스크립트 (미완)
 - v.0.0.2
 - input: 재생목록 id
-- output: 재생목록 내 비디오들에 대한 ["idx", "title", "url", "duration"] 정보를 담은 csv 파일
+- [output](./results/result-PL5Q2soXY2Zi97Ya5DEUpMpO2bbAoaG7c6.csv): 재생목록 내 비디오들에 대한 ["idx", "title", "url", "duration"] 정보를 담은 csv 파일
 
 ### 왜 만들었나?
 이 재생 목록의 전체 강의를 다 들으려면 몇 시간이 걸릴까?
