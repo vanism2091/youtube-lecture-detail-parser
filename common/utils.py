@@ -8,7 +8,7 @@ def get_isosplit(s, split):
     return n, s
 
 
-def parse_isoduration(s):
+def parse_isoduration(s: str) -> int:
     # Remove prefix
     s = s.split('P')[-1]
     

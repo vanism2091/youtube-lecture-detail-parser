@@ -1,5 +1,5 @@
 import argparse
-from myYoutube import YoutubeDetailsParser
+from Parser.parser import YoutubeDetailsParser
 from googleapiclient.errors import HttpError
 
 if __name__ == '__main__':
@@ -7,8 +7,6 @@ if __name__ == '__main__':
     # parser.add_argument('--pid', help='Search term', default='Google')
     # parser.add_argument('--max-results', help='Max results', default=25)
     # args = parser.parse_args()
-    curr_pid: str
-    
     curr_pid = "PL5Q2soXY2Zi97Ya5DEUpMpO2bbAoaG7c6"
     
     try:
